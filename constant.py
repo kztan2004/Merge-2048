@@ -1,0 +1,35 @@
+import pygame
+pygame.init()
+pygame.font.init()
+
+WIDTH = 600
+HEIGHT = 600
+
+WIN = pygame.display.set_mode((WIDTH, HEIGHT))
+
+FPS = 60
+
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+LIGHT = (249, 246, 242)
+DARK = (119, 110, 101)
+BASE = (204, 192, 179);
+
+GRADE = [(238, 228, 218),(237, 224, 200),(242, 177, 121),(245, 149, 99),(246, 124, 95),(246, 94, 59),(237, 207, 114),(237, 204, 97),(237, 200, 80),(237, 197, 63),(237, 194, 46)]
+
+B_WIDTH = 70
+B_HEIGHT = 70
+
+BTN_WIDTH = 150
+BTN_HEIGHT = 60
+
+F_SIZE = 30
+
+PADDING = 5
+P_WIDTH = 110
+P_HEIGHT = 70
+
+ROWS = 5
+COLS = 5
+
+GENERATE_RATE = 5
